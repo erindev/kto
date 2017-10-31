@@ -1,0 +1,45 @@
+*{margin:0; padding:0;}
+li{list-style:none;}
+img{border:0 none;}
+fieldset,input {border:0 none;}
+legend {position: absolute; left:-9999px; font-size:0; line-height:0; overflow: hidden; width:1px; height:1px;}
+caption {position: absolute; left:-9999px; font-size:0; line-height:0; overflow: hidden; width:1px; height:1px;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+
+
+@font-face {
+    font-family: myFirstFontKor;
+    src: url(../font/NanumBarunGothicBold.ttf);
+	src: url(../font/NanumBarunGothicBold.otf);
+	font-weight:bold;
+}
+
+@font-face {
+	font-family: myFirstFontKor;
+	src: url(../font/NanumBarunGothicLight.ttf);
+	src: url(../font/NanumBarunGothicLight.otf);
+}
+
+
+
+
+
+
+
+body {font-family:myFirstFontKor;
+overflow-x:hidden; overflow-y:auto; background-color:#fdfdfd;}
+
+.jbFixed {
+        position: fixed;
+        top: 0px;
+        
+/*        background-color:#007F7F;*/
+        color:#000;
+      }
+
+.a33 .selected { background-color:#000; color:#fff;}
+.banner.slide.btn a.selected2 { background:url("../images/slide_btn_on.png") no-repeat;} /*배너버튼*/
+.newsTab li>a.selected3 {background-color:#F9BA48; font-weight:bold; }
+
+   .travel_review_mobile li a.mobile_m4_a {border:2px solid #f9ba48; font-weight:bold; background-color:#fff; width:28%; height:66px;}

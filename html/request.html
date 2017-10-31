@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>가이드북</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+	<link href="./css/reset.css" type="text/css" rel="stylesheet" />
+	<link href="./css/layout.css" type="text/css" rel="stylesheet" />
+	<link href="./css/base.css" type="text/css" rel="stylesheet" />
+
+	<link href="./css/subPage.css" type="text/css" rel="stylesheet" />
+	<link href="./css/response.css" type="text/css" rel="stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<script src="./script/js1.js"></script>
+	<script src="./script/sub.js"></script>
+	<script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+
+	<!-- 다음주소API : http://postcode.map.daum.net/guide-->
+
+</head>
+
+<body>
+	<header id="header">
+			<section class="lnb">
+				<h2 class="hidden">LNB</h2>
+				<div class="container">
+					<section class="info in1">
+						<h2 class="hidden">관련홈페이지(lnb1)</h2>
+						<ul>
+							<li><a href="http://korean.visitkorea.or.kr/kor/bz15/addOn/main/publish/index.jsp" title="대한민국 구석구석 홈페이지 바로가기">대한민국구석구석 <img src="./images/foreign.png" alt="대한민국 구석구석 홈페이지 바로가기 아이콘" /></a></li>
+							<li><a href="http://www.gocamping.or.kr/" title="고캠핑 홈페이지 바로가기">고캠핑 <img src="./images/foreign.png" alt="고캠핑 홈페이지 바로가기 아이콘"/></a></li>
+							<li class="br_none"><a href="http://www.koreatrails.or.kr/" title="걷기여행길 홈페이지 바로가기">걷기여행길 <img src="./images/foreign.png" alt="걷기여행길 홈페이지 바로가기 아이콘"/></a></li>
+						</ul>
+					</section>
+					<section class="info in2">
+						<h2 class="hidden">유틸리티(lnb2)</h2>
+						<ul>
+							<li>
+								<a href="./login.html" title="로그인"><img src="./images/login.png" alt="로 그인아이콘" /> 로그인</a>
+							</li>
+							<li>
+								<a href="./joining.html" title="회원가입"><img src="./images/user.png" alt="회원가입 아이콘" /> 회원가입</a>
+							</li>
+							<li>
+								<a href="./sitemap.html" title="사이트맵"><img src="./images/sitemap.png" alt="사이트맵 아이콘" /> 사이트맵</a>
+							</li>
+							<li class="br_none">
+								<form action="#" method="get">
+									<fieldset>
+										<legend class="hidden">홈페이지 기본 언어 설정</legend>
+										<select name="Language">
+                                        <option value="한국어">한국어</option>
+                                        <option value="English">English</option>
+                                        <option value="日本語">日本語</option>
+                                        <option value="简体中文">简体中文</option>
+                                        <option value="繁體中文">繁體中文</option>
+                                    </select>
+									</fieldset>
+								</form>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+			<nav class="gnbPc">
+				<div class="container">
+					<h1 class="logo"><a href="#" title="한국관광공사 메인 페이지로 이동"><img src="./images/logo.jpg" alt="한국관광공사 로고이미지"></a></h1>
+					<h2 class="hidden">메인메뉴(GNB)</h2>
+					<p class="menuicon">
+						<a href="#"><img src="./images/options.png" alt="메뉴열기" /></a>
+					</p>
+					<ul class="gnb gnbGeneral" id="gnb">
+						<li class="span_ex"><a href="#" title="대한민국 파헤치기(메뉴1)"><span>대한민국</span><br />파헤치기</a>
+							<ul class="subM one">
+								<li><a href="#" title="자연&어드벤처 자세히 보러가기">자연&amp;어드벤처</a></li>
+								<li><a href="#" title="액티비티 자세히 보러가기">액티비티</a></li>
+								<li><a href="#" title="먹을거리 자세히 보러가기">먹을거리</a></li>
+								<li><a href="#" title="잘거리 보러가기">잘거리</a></li>
+								<li><a href="#" title="숙박 보러가기">숙박</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g2"><a href="#" title="여행정보(메뉴2)">여행정보</a>
+							<ul class="subM two">
+								<li><a href="#" title="여행환경 자세히 보러가기">여행환경</a></li>
+								<li><a href="#" title="교통환경 자세히 보러가기">교통환경</a></li>
+								<li><a href="#" title="추천여행명소 자세히 보러가기">추천여행명소</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g3"><a href="#" title="커뮤니티(메뉴3)">커뮤니티</a>
+							<ul class="subM three">
+								<li><a href="#" title="행사안내 자세히 보러가기">행사안내</a></li>
+								<li><a href="#" title="공지사항 자세히 보러가기">공지사항</a></li>
+								<li><a href="#" title="채용안내 자세히 보러가기">채용안내</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g4"><a href="#" title="고객참여(메뉴4)">고객참여</a>
+							<ul class="subM four">
+								<li><a href="#" title="고객소리함 자세히 보러가기">고객소리함</a></li>
+								<li><a href="#" title="관광사진갤러리 자세히 보러가기">관광사진갤러리</a></li>
+								<li><a href="#" title="홍보물 신청 자세히 보러가기">홍보물 신청</a></li>
+								<li><a href="#" title="e-Book 보러가기">e-Book</a></li>
+							</ul>
+						</li>
+						<li class="span_ex"><a href="#" title="한국관광공사(메뉴5)"><span>정부 3.0</span><br />한국관광공사</a>
+							<ul class="subM five">
+								<li><a href="#" title="경영 내용 자세히 보러가기">경영</a></li>
+								<li><a href="#" title="주요사업 자세히 보러가기">주요사업</a></li>
+								<li><a href="#" title="연혁 자세히 보러가기">연혁</a></li>
+								<li><a href="#" title="CI 소개 보러가기">CI 소개</a></li>
+								<li><a href="#" title="보도자료 자세히 보러가기">보도자료</a></li>
+								<li><a href="#" title="공사소식 자세히 보러가기">공사소식</a></li>
+								<li><a href="#" title="정부 3.0 보러가기">정부 3.0</a></li>
+								<li><a href="#" title="찾아오시는 길 자세히 보러가기">찾아오시는 길</a></li>
+							</ul>
+						</li>
+						<li class="search">
+							<a href="#" title="검색기능" class="br_none"><img src="./images/search.png" alt="검색아이콘" /></a>
+							<div class="searchLayer">
+								<form action="#" name="menuSearch" method="post" id="searchForm">
+									<fieldset>
+										<legend>통합검색</legend>
+										<p class="title"><strong>통합검색</strong></p>
+										<p>
+											<select>
+                                    <option id="default">통합검색</option>
+                                    <option id="menu">메뉴</option>
+                                    <option id="news">뉴스</option>
+                                    <option id="travel">여행</option>
+                                    <option id="webpage">웹페이지</option>
+                                    <option id="peer">직원/업무</option>
+                                </select>
+										</p>
+										<p>
+											<input type="text" placeholder="검색어를 입력하세요" />
+										</p>
+										<p>
+											<input type="submit" value="검색하기" id="searchGo" />
+										</p>
+									</fieldset>
+								</form>
+								<ol class="bestRanking">
+									<li class="title"><strong>인기검색어</strong></li>
+									<li><a href="#" title=""><span>1</span>가이드북</a></li>
+									<li><a href="#" title=""><span>2</span>전국지도</a></li>
+									<li><a href="#" title=""><span>3</span>한국관광공사 위치</a></li>
+									<li><a href="#" title=""><span>4</span>여행상담신청</a></li>
+									<li><a href="#" title=""><span>5</span>한국관광공사 공채일정</a></li>
+								</ol>
+							</div>
+						</li>
+					</ul>
+					
+					<p class="search">
+						<a href="#" title="검색기능" class="br_none"><img src="./images/search.png" alt="검색아이콘" /></a>
+					</p>
+				</div>
+			</nav>
+			<nav class="gnbMobile">
+				<ul>
+						<li class="span_ex"><a href="#" title="대한민국 파헤치기(메뉴1)"><span>대한민국</span><br />파헤치기</a>
+							<ul class="subM one">
+								<li><a href="#" title="자연&문화재 자세히 보러가기">자연&amp;문화재</a></li>
+								<li><a href="#" title="액티비티 자세히 보러가기">액티비티</a></li>
+								<li><a href="#" title="먹을거리 자세히 보러가기">먹을거리</a></li>
+								<li><a href="#" title="잘거리 보러가기">잘거리</a></li>
+								<li><a href="#" title="숙박 보러가기">숙박</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g2"><a href="#" title="여행정보(메뉴2)">여행정보</a>
+							<ul class="subM two">
+								<li><a href="#" title="여행환경 자세히 보러가기">여행환경</a></li>
+								<li><a href="#" title="교통환경 자세히 보러가기">교통환경</a></li>
+								<li><a href="#" title="추천여행일정 자세히 보러가기">추천여행일정</a></li>
+								<li><a href="#" title="항공정보 보러가기">항공정보</a></li>
+								<li><a href="#" title="화폐정보 보러가기">화폐정보</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g3"><a href="#" title="커뮤니티(메뉴3)">커뮤니티</a>
+							<ul class="subM three">
+								<li><a href="#" title="행사안내 자세히 보러가기">행사안내</a></li>
+								<li><a href="#" title="공지사항 자세히 보러가기">공지사항</a></li>
+								<li><a href="#" title="채용안내 자세히 보러가기">채용안내</a></li>
+								<li><a href="#" title="이벤트 자세히 보러가기">이벤트</a></li>
+							</ul>
+						</li>
+						<li class="gnbM g4"><a href="#" title="고객참여(메뉴4)">고객참여</a>
+							<ul class="subM four">
+								<li><a href="#" title="고객소리함 자세히 보러가기">고객소리함</a></li>
+								<li><a href="#" title="관광사진갤러리 자세히 보러가기">관광사진갤러리</a></li>
+								<li><a href="#" title="홍보물 신청 자세히 보러가기">홍보물 신청</a></li>
+								<li><a href="#" title="e-Book 보러가기">e-Book</a></li>
+							</ul>
+						</li>
+						<li class="span_ex"><a href="#" title="한국관광공사(메뉴5)"><span>정부 3.0</span><br />한국관광공사</a>
+							<ul class="subM five">
+								<li><a href="#" title="경영 내용 자세히 보러가기">경영</a></li>
+								<li><a href="#" title="주요사업 자세히 보러가기">주요사업</a></li>
+								<li><a href="#" title="연혁 자세히 보러가기">연혁</a></li>
+								<li><a href="#" title="CI 소개 보러가기">CI 소개</a></li>
+								<li><a href="#" title="보도자료 자세히 보러가기">보도자료</a></li>
+								<li><a href="#" title="공사소식 자세히 보러가기">공사소식</a></li>
+								<li><a href="#" title="정부 3.0 보러가기">정부 3.0</a></li>
+								<li><a href="#" title="찾아오시는 길 자세히 보러가기">찾아오시는 길</a></li>
+							</ul>
+						</li>
+						<li class="search">
+							<a href="#" title="검색기능" class="br_none"><img src="./images/search.png" alt="검색아이콘" /></a>
+						</li>
+					</ul>
+			</nav>
+		</header>
+	<div class="subMain">
+		<div class="contName cn4">
+			<div class="container">
+				<h2>
+Application for promotional materials</h2>
+			</div>
+		</div>
+		<!--배경깔고 h3 오른쪽으로 글씨체 변경-->
+		<div class="container">
+			<div class="contBody">
+				<div class="sub">
+					<h3>고객참여</h3>
+					<ul>
+						<li><a href="#">고객소리함</a></li>
+						<li><a href="#">관광사진갤러리</a></li>
+						<li><a href="#">홍보물신청</a></li>
+						<li><a href="#">e-Book</a></li>
+					</ul>
+				</div>
+				<div class="contArea">
+					<h3>홍보물 신청</h3>
+					<ol>
+						<li>홈</li>
+						<li>고객참여</li>
+						<li>홍보물 신청</li>
+					</ol>
+					<h4>대한민국 관광 가이드북(홍보물) 신청하기</h4>
+
+					<div class="require">
+						<span class="star">'<strong class="must">*</strong>' 표시항목은 필수입력 사항입니다.</span>
+						<table class="form guide" >
+
+							<caption>대한민국 관광 가이드북 신청</caption>
+							<colgroup>
+								<col width="25%">
+								<col width="*">
+							</colgroup>
+							<tr>
+								<th scope="row"><strong class="must">*</strong> <label for="uname">성명</label></th>
+								<td>
+									<p class="ip"><input type="text" name="uname" id="uname" maxlength="10" title="성명 입력" class="txt"></p>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><strong class="must">*</strong> <label for="email">이메일</label></th>
+								<td>
+									<p class="ip"><input type="text" name="email" id="email" maxlength="30" title="이메일 입력" placeholder="ex) 123abc@hyosung.com" class="txt"></p>
+									<p style="margin:6px 0 0;font-size:11px;color:#a60000;">* 문의하신 답변내용은 입력하신 고객님의 메일로 통보되오니 메일주소를 바르게 입력하여 주시기 바랍니다</p>
+								</td>
+							</tr>
+							<!-- // -->
+							<tr>
+								<th scope="row"><strong class="must">*</strong><label for="tel"> 연락처</label></th>
+								<td>
+									<p class="ip"><input type="text" name="tel" id="tel" maxlength="11" title="연락처 입력" placeholder="ex)0101231234 (숫자만 입력가능)" class="txt"></p>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><strong class="must">*</strong><label for="adress"> 주소</label></th>
+								<td>
+									<p>
+										<label for="post1">우편번호</label>
+										<input type="text" id="post1" name="post1" /> - <input type="text" id="post2" name="post2" />
+										<input type="button" id="postcode" value="우편번호검색" />
+									</p>
+									<p>
+										<label for="address">상세주소</label>
+										<input type="text" id="address" name="address" /> - <input type="text" id="address2" name="address2" />
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><strong class="must">*</strong> <label for="title">제목</label></th>
+								<td>
+									<p class="ip"><input type="text" name="title" id="title" maxlength="50" title="제목 입력" class="txt"></p>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><strong class="must">*</strong><label for="content"> 내용</label></th>
+								<td>
+									<p class="ip"><input type="text" id="content" /></p>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<h4>대한민국 관광 가이드북 신청</h4>
+					<table class="list guide">
+						<caption>지난 이벤트 리스트</caption>
+						<colgroup>
+							<col width="15%">
+							<col width="*">
+							<col width="15%">
+							<col width="10%">
+							<col width="15%">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col" abbr="번호">No</th>
+								<th scope="col" abbr="제목">제목</th>
+								<th scope="col" abbr="작성자" class="write">작성자</th>
+								<th scope="col" abbr="작성일" class="writeDate">작성일</th>
+								<th scope="col" abbr="진행상태" class="status">상 태</th>
+
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr>
+								<th scope="row">127</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			관광책자신청합니다.</a></td>
+								<td>강연주</td>
+								<td>2017.08.02</td>
+								<td>접수</td>
+							</tr>
+
+							<tr>
+								<th scope="row">126</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			부산관광 팜플렛(관광책자)신청합니다.</a></td>
+								<td>안효정</td>
+								<td>2017.07.30</td>
+								<td>접수</td>
+							</tr>
+
+							<tr>
+								<th scope="row">125</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			관광책자신청합니다.</a></td>
+								<td>안수경</td>
+								<td>2017.07.28</td>
+								<td>접수대기</td>
+							</tr>
+
+							<tr>
+								<th scope="row">124</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			순천 가이드북 수정 요청건입니다.</a></td>
+								<td>김해영</td>
+								<td>2017.07.25</td>
+								<td>접수대기</td>
+							</tr>
+
+							<tr>
+								<th scope="row">123</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			울산 관광책자 신청합니다.</a></td>
+								<td>유다은</td>
+								<td>2017.07.25</td>
+								<td>접수대기</td>
+							</tr>
+
+							<tr>
+								<th scope="row">127</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			관광책자신청합니다.</a></td>
+								<td>이준경</td>
+								<td>2017.07.19</td>
+								<td>발송완료</td>
+							</tr>
+
+							<tr>
+								<th scope="row">122</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			강원도 관광책자신청합니다.</a></td>
+								<td>이태규</td>
+								<td>2017.07.16</td>
+								<td>발송완료</td>
+							</tr>
+
+							<tr>
+								<th scope="row">121</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			전국 관광책자 부탁드립니다~^^</a></td>
+								<td>전민형</td>
+								<td>2017.07.10</td>
+								<td>발송완료</td>
+							</tr>
+
+							<tr>
+								<th scope="row">120</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			지도 및 홍보책자 신청</a></td>
+								<td>한솔</td>
+								<td>2017.07.07</td>
+								<td>발송완료</td>
+							</tr>
+
+							<tr>
+								<th scope="row">119</th>
+								<td class="tit">
+
+									<a href="./view.do?seq=170">			한반도 지도와 서울 가이드북 신청합니다.</a></td>
+								<td>이주성</td>
+								<td>2017.06.29</td>
+								<td>발송완료</td>
+							</tr>
+
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">
+		<section class="f_contnet f1">
+			<div class="container">
+				<ul class="f1_cont">
+					<li>
+						<a href="#" title="정부 3.0 홈페이지 바로가기"><img src="./images/relBanner_1.gif" alt="정부3.0홈페이지 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="대한민국공무원되기 홈페이지 바로가기"><img src="./images/relBanner_2.gif" alt="대한민국공무원되기 홈페이지 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="문화체육관광부 홈페이지 바로가기"><img src="./images/relBanner_3.gif" alt="문화체육관광부 홈페이지 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="이렇게 달라집니다 홈페이지 바로가기"><img src="./images/relBanner_4.jpg" alt="이렇게 달라집니다 홈페이지 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="부정 신고센터 홈페이지 바로가기"><img src="./images/relBanner_5.gif" alt="부정 신고센터 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="문화포털 홈페이지 바로가기"><img src="./images/relBanner_6.gif" alt="문화포털 홈페이지 바로가기 배너" /></a>
+					</li>
+					<li>
+						<a href="#" title="국민안전방송 홈페이지 바로가기"><img src="./images/relBanner_7.gif" alt="국민안전방송 홈페이지 바로가기 배너" /></a>
+					</li>
+				</ul>
+				<p>
+					<a href="#" title="슬라이드 이미지 재생 및 멈춤 버튼"><img src="./images/play_off.png" alt="슬라이드 이미지 재생 및 멈춤 버튼 아이콘" /></a>
+				</p>
+			</div>
+		</section>
+		<!--              .f_content f1 END-->
+		<section class="f_content f2">
+			<div class="container">
+				<p class="footer_logo"><img src="./images/logoFoot.gif" alt="한국관광공사 로고" /></p>
+				<address>
+                    26464 강원도 원주시 세계로 10 TEL : (033)738-3000 사업자등록번호 : 202-81-50707
+통신판매업신고 : 제 2009-서울중구-1234호
+Copyright © 2007-2012 by KTO. ALL RIGHT RESERVED.
+                    </address>
+				<ul class="badge">
+					<li>
+						<a href="#" title=""><img src="./images/brnFootBest.gif" alt="" /></a>
+					</li>
+					<li>
+						<a href="#" title=""><img src="./images/brnFootCulture2014.gif" alt="" /></a>
+					</li>
+					<li>
+						<a href="#" title=""><img src="./images/brnFootWA2014.gif" alt="" /></a>
+					</li>
+				</ul>
+			</div>
+			<!--                .f_content f2 END-->
+		</section>
+	</footer>
+</body>
+
+</html>

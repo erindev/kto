@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>nav</title>
+        <style>
+            *{margin:0; padding:0;}
+            li{list-style:none;}
+            img{border:0 none;}
+            fieldset,input {border:0 none;}
+            
+            body {font-size:90%;  color:#000;}
+
+a:link, a:visited {color:#000; text-decoration: none;}
+a:hover, a:focus {text-decoration: none;}
+            
+            
+#header {width:100%; height:110px; position:relative;}
+            
+            .container {width:1200px; margin:auto; height:100%; background-color:rgba(0,0,0,.5);}
+.hidden {position:absolute; left:-9999%; font-size:0; line-height:0; width:1px; height:1px; overflow:hidden;}
+
+.br_none {border-right:0 none;}
+
+
+            
+            nav { width:100%; height:75px; top:35px; position:fixed; background-color:#fff; z-index:999;}
+            nav .container {position:relative;}
+        
+            
+/*header*/
+            .lnb {position: absolute;z-index: 2; width:100%;height: 35px;margin:auto;}
+
+.info li {float:left; height:35px; line-height:35px; border-right:1px solid #eee;}
+
+.info li a, .info li select{display:block; margin:0 10px; font-size: 11px; text-align:center;     height: 29px;
+    line-height: 30px; margin-top:3px;}
+
+.info li a:link, .info li a:active, .info li a:visited {display:block; width:; height:; color:#000;}
+.info li a:focus, .info li a:hover {display:block;}
+
+.info {height:35px;} 
+.in1 {float:left; width:25%;}
+.in2 {float:right; width:30%;}
+.in1 img {width:15px; height:15px;}
+.in2 img {width:15px; height:15px;}
+.in2 .br_none {border-right:0px;}
+.in2 select {width:80px; height:20px; line-height:35px; border:0.5px solid #eee;  }
+            
+            
+/*한국관광공사로고*/
+.logo {background:url("../images/logo.jpg") no-repeat; width:155px; height:100%; float:left; position:absolute; background-size:contain; top:9px;}
+.logo a:link, .logo a:active, .logo a:visited, .logo a:focus {display:block; width:100%; height:100%; text-indent: -9999%;}
+
+            /*GNB 메뉴*/
+.gnb {float:right; height:55px; margin-top:20px;}
+.gnb li {float:left; width:117px; text-align: center; }
+.gnb>li span {color:red; font-size:11px;}
+.gnb li.span_ex {height:40px;}
+.gnb li.span_ex>a { border-right:1px solid #eee; display: block;height: 40px;line-height: 19px;} 
+.gnb li.gnbM>a {display:block; height:40px; line-height:40px;}
+.gnb img {width:30px;height:30px;}
+.gnbM>a:link, .gnbM>a:active, .gnbM>a:visited {display:block; height:40px; line-height:40px; font-size:14px; text-align:center; border-right: 1px solid #eee;}
+
+/*GNB -서브메뉴*/
+.subM { background-color:brown;height: 335px;width: 100%;margin-top: 15px;}
+            
+.subM li {height:40px;}
+.subM li a {display:block; height:40px; line-height:40px;}
+
+            
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            //ㅊ초기화
+            $(".subM").hide();
+            
+            $(".gnb>li").on("mouseenter focusin",function(){
+                $(".subM").stop().slideDown();
+            })
+            .on("mouseleave focusout", function(){
+                $(".subM").stop().slideUp();                
+            });
+            
+        });    
+    </script>
+    </head>
+    <body>
+        <header id="header">
+            <section class="lnb">
+                <h2 class="hidden">LNB</h2>
+                <div class="container">
+                    <section class="info in1">
+                            <h2 class="hidden">관련홈페이지(lnb1)</h2>
+                            <ul>
+                                <li><a href="#" title="대한민국 구석구석 홈페이지 바로가기">대한민국구석구석 <img src="./images/foreign.png" alt="대한민국 구석구석 홈페이지 바로가기 아이콘" /></a></li>
+                                <li><a href="#" title="고캠핑 홈페이지 바로가기">고캠핑 <img src="./images/foreign.png" alt="고캠핑 홈페이지 바로가기 아이콘"/></a></li>
+                                <li class="br_none"><a href="#" title="걷기여행길 홈페이지 바로가기">걷기여행길 <img src="./images/foreign.png" alt="걷기여행길 홈페이지 바로가기 아이콘"/></a></li>
+                            </ul>
+                    </section>
+                    <section class="info in2">
+                            <h2 class="hidden">유틸리티(lnb2)</h2>
+                            <ul>
+                                <li><a href="#" title="로그인"><img src="./images/login.png" alt="로그인아이콘"/> 로그인</a></li>
+                                <li><a href="#" title="회원가입"><img src="./images/user.png" alt="회원가입 아이콘"/> 회원가입</a></li>
+                                <li><a href="#" title="사이트맵"><img src="./images/sitemap.png" alt="사이트맵 아이콘"/> 사이트맵</a></li>
+                                <li class="br_none">
+                                <form action="#" method="get">
+                                    <fieldset>
+                                    <legend class="hidden">홈페이지 기본 언어 설정</legend>
+                                    <select name="Language">
+                                        <option value="한국어">한국어</option>
+                                        <option value="English">English</option>
+                                        <option value="日本語">日本語</option>
+                                        <option value="简体中文">简体中文</option>
+                                        <option value="繁體中文">繁體中文</option>
+                                    </select>
+                                    </fieldset>
+                                </form>
+                                </li>
+                            </ul>
+                        </section>
+                </div>
+            </section>
+            <nav>
+            <div class="container">
+                <h1 class="logo"><a href="http://kto.visitkorea.or.kr/kor.kto">한국관광공사(로고)</a></h1>
+                <h2 class="hidden">메인메뉴(GNB)</h2>
+                <ul class="gnb">
+                    <li class="span_ex"><a href="#" title="대한민국 파헤치기(메뉴1)"><span>대한민국</span><br />파헤치기</a>
+                        <ul class="subM one">
+                            <li><a href="#" title="자연&어드벤처 자세히 보러가기">자연&amp;어드벤처</a></li>
+                            <li><a href="#" title="액티비티 자세히 보러가기">액티비티</a></li>
+                            <li><a href="#" title="먹을거리 자세히 보러가기">먹을거리</a></li>
+                            <li><a href="#" title="잘거리 보러가기">잘거리</a></li>
+                            <li><a href="#" title="숙박 보러가기">숙박</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnbM g2"><a href="#" title="여행정보(메뉴2)">여행정보</a>
+                        <ul class="subM two">
+                            <li><a href="#" title="여행환경 자세히 보러가기">여행환경</a></li>
+                            <li><a href="#" title="교통환경 자세히 보러가기">교통환경</a></li>
+                            <li><a href="#" title="추천여행일정 자세히 보러가기">추천여행일정</a></li>
+                            <li><a href="#" title="항공정보 보러가기">항공정보</a></li>
+                            <li><a href="#" title="화폐정보 보러가기">화폐정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnbM g3"><a href="#" title="커뮤니티(메뉴3)">커뮤니티</a>
+                        <ul class="subM three">
+                            <li><a href="#" title="행사안내 자세히 보러가기">행사안내</a></li>
+                            <li><a href="#" title="공지사항 자세히 보러가기">공지사항</a></li>
+                            <li><a href="#" title="채용안내 자세히 보러가기">채용안내</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnbM g4"><a href="#" title="고객참여(메뉴4)">고객참여</a>
+                        <ul class="subM four">
+                            <li><a href="#" title="고객소리함 자세히 보러가기">고객소리함</a></li>
+                            <li><a href="#" title="관광사진갤러리 자세히 보러가기">관광사진갤러리</a></li>
+                            <li><a href="#" title="홍보물 신청 자세히 보러가기">홍보물 신청</a></li>
+                            <li><a href="#" title="e-Book 보러가기">e-Book</a></li>
+                        </ul>
+                    </li>
+                    <li class="span_ex"><a href="#" title="한국관광공사(메뉴5)"><span>정부 3.0</span><br />한국관광공사</a>
+                    <ul class="subM five">
+                            <li><a href="#" title="경영 내용 자세히 보러가기">경영</a></li>
+                            <li><a href="#" title="주요사업 자세히 보러가기">주요사업</a></li>
+                            <li><a href="#" title="연혁 자세히 보러가기">연혁</a></li>
+                            <li><a href="#" title="CI 소개 보러가기">CI 소개</a></li>
+                            <li><a href="#" title="보도자료 자세히 보러가기">보도자료</a></li>
+                            <li><a href="#" title="공사소식 자세히 보러가기">공사소식</a></li>
+                            <li><a href="#" title="정부 3.0 보러가기">정부 3.0</a></li>
+                            <li><a href="#" title="찾아오시는 길 자세히 보러가기">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="검색기능"  class="br_none"><img src="./images/search.png" alt="검색아이콘"/></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+    </body>
+</html>

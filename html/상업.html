@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>상업팝업</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        //function setCookie(cname, cvalue, exdays) => setCookie("쿠키이름","쿠키값",안보일수)
+        //function getCookie(cname)
+    </script>
+    <style>
+        *{margin:0; padding:0;}
+        li{list-style:none;}
+        img{border:0 none;}
+        fieldset,input {border:0 none;}
+
+        body {/*font-family:"namsan";*/
+        overflow-x:hidden; overflow-y:auto;
+        /*background:url("../images/korea_pattern.jpg") repeat;*/}
+        
+        body {font-size:90%;  color:#000;}
+
+        a:link, a:visited {color:#000; text-decoration: none;}
+        a:hover, a:focus {text-decoration: none;}
+
+        #wrapper {width:100%; height:100%;}
+        
+        .popWrap {width:370px; height:370px; border-radius:50%; border:2px solid #000; padding:80px;}
+        .popWrap h3 {font-size: 30px; text-align: center; height:65px; line-height:65px;}
+        .popWrap span {font-size:15px;}
+        .popWrap p {text-align: center;}
+        .popWrap .qr {text-align:left;}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="popWrap">
+            <h3>NOTICE</h3>
+            <p class="qr">
+                <span>본사이트는 상업적 목적이 아닌</span>
+                <span>개인포트폴리오 용도로 제작되었으며,</span>
+                <span>홈페이지의 일부내용과 기타이미지 등은</span>
+                <span>그 출처가 따로 있음을 밝힙니다.</span>
+            </p>
+            <p><img src="./images/QRCodeImg.jpg" alt="" style="width:200px"/></p>
+            <p>
+                <input type="checkbox" id="subpop" name="subpop" title="오늘 하루동안 이창 열지 않음"/>
+                <label for="subpop">오늘 하루동안 이 창 열지 않음</label>
+                <a href="#">[닫기]</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

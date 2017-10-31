@@ -1,0 +1,162 @@
+body {font-size:90%;  color:#000;}
+
+a:link, a:visited {color:#000; text-decoration: none;}
+a:hover, a:focus {text-decoration: none;}
+
+#wrapper {width:100%; height:100%; position:relative;/*overflow-y: scroll;*/
+overflow-x: hidden;}
+
+/*header*/
+
+#header {width:100%; height:123px; position:relative;}
+
+nav { width:100%; height:85px; top:38px; position:fixed; background-color:#fff; z-index:9;    border-bottom: 2px solid #E2B636;}
+/*nav>p {background:url("../images/subMenu_bg.png") no-repeat 20%; background-size:15%;}*/
+
+.skip_nav li a:link, .skip_nav li a:visited {display:block; width:100%; padding:1%; background-color:#1C9352; color:white; font-weight:bold; text-align:center; position:absolute; top:-100px; left:0; z-index:9999;}
+	.skip_nav li a:focus {top:0;}
+
+
+
+
+
+/*********************#HEADER START*********************/
+/*LNB*/
+/**header*/
+.lnb {position: absolute;z-index: 2; width:100%;height: 35px;margin:auto;  border-bottom:1px solid #eee;}
+.lnb .container {overflow:hidden;}
+
+.info li {float:left; height:35px; line-height:35px; border-right:1px solid #eee;}
+.info li:hover {background-color:#C1DDDC;}
+
+.info li a, .info li select{display:block; margin:0 10px; font-size: 11px; text-align:center;     height: 29px;
+    line-height: 30px; margin-top:3px;}
+
+.info li a:link, .info li a:active, .info li a:visited {display:block; color:#000;}
+.info li a:focus, .info li a:hover {display:block;}
+
+.info {height:35px;} 
+.in1 {float:left;}
+.in2 {float:right;}
+.in1 img {width:15px; height:15px;}
+.in2 img {width:15px; height:15px;}
+.in2 .br_none {border-right:0px;}
+.in2 select {width:80px; height:20px; line-height:35px; border:0.5px solid #eee;  }
+            
+            
+/*한국관광공사로고*/
+.logo {width:230px; float:left; height:100%; margin-top:10px;}
+.logo a:link, .logo a:active, .logo a:visited, .logo a:focus {display:block; width:100%; height:100%;}
+
+/*GNB 메뉴*/
+.menuicon {display:none;}
+.gnbMobile {display:none;
+ width:132px; float:none; margin-left:-156px; top:87px; height:100%; background-color: #0f1552; position: fixed; z-index: 10;}
+.gnbMobile ul>li {float:none; width:100%; }
+.gnbMobile ul>li.span_ex {height:initial;}
+.gnbMobile ul>li.span_ex a {font-size:17px; line-height:25px; border-right:0px; color:#eee; text-align: center; display:block; margin-top:5px;}
+.gnbMobile ul>li.span_ex a span {color:#e24536; font-size:15px;}
+.gnbMobile ul>li.gnbM {height:initial;}
+.gnbMobile ul>li.gnbM a {line-height:60px; font-size:17px; border-right:0px; color:#fff;}
+.gnbMobile ul>li.search {display:none;}
+.gnbMobile ul>li.span_ex a>.subM li {line-height:0;}
+
+p.search {display:block; float:right; width:30px; height:30px; margin-top:30px;}
+p.search a {display:block; width:100%; height:100%;}
+p.search a img {width:30px;}
+
+
+
+p.search {display:none;}
+.gnb {float:right; width:59%; height:55px; margin-top:20px;}
+.gnb li {float:left; width:16.5%; text-align: center; height:40px; position:relative;}
+.gnb>li span {color:#E24536; font-size:11px;}
+.gnb li.span_ex {height:40px;}
+.gnb li.span_ex>a { border-right:1px solid #eee; display: block;height: 100%;line-height: 19px; font-weight: bold;} 
+.gnb li.gnbM>a {display:block; height:100%; line-height:40px; font-weight:bold; }
+.gnb img {width:30px; height:30px;}
+.gnbM>a:link, .gnbM>a:active, .gnbM>a:visited {display:block; height:100%; line-height:100%; font-size:14px; text-align:center; border-right: 1px solid #eee;}
+
+
+.gnb li.search>a {    display: block;
+    width: 40px;
+    height: 40px;
+    /* text-align: center; */
+    margin: auto;}
+.gnb li.search .searchLayer {width: 400%;position: absolute;right: 0; top:67px; overflow: hidden; border:1px solid #000; border-top:0px; }
+.searchLayer form { float:left;width:40%; background-color:#fff; padding:5%; }
+.searchLayer form p {text-align: left; font-size:20px; margin-top:9px;}
+.searchLayer form p.title {height:35px; margin-top:0px;}
+.searchLayer form select {width:100%; height:40px; background-color:#fff;}
+.searchLayer form input {width:100%;}
+.searchLayer form input[type="text"] {border:1px solid #eee; background-color:#eee; text-indent:1em; height:37px;}
+.searchLayer form input[type="submit"] {background-color:coral; height:40px; line-height:40px; color:#fff; font-size: 15px; font-weight: bold;}
+
+
+.searchLayer ol {float:left; width:40%; background-color:#eee; padding:5%; }
+.searchLayer ol li {width:100%; text-align: left; height:23px; line-height:23px; margin-bottom:5px;}
+.searchLayer ol li.title {font-size:20px; line-height:0; line-height: 19px; margin-bottom:18px;}
+.searchLayer ol li a {display:block; width:100%; height:100%; text-indent:1em;}
+.searchLayer ol li span {display:block; float:left; width:23px; height:23px; line-height:23px; color:#fff; background-color:coral; text-align: center; text-indent: 0em;}
+
+
+
+/*GNB -서브메뉴  gnb8bg*/
+.subM {background-color:transparent; margin-top:24px; overflow: hidden;}
+.gnbMobile .subM { width: 100%; margin-top: 0px;z-index: 9999; background-color:#252525; position:relative;}
+
+.gnb_support {height: 335px;position: absolute;width: 100%; background:url("../images/gnb8bg.png") repeat; top: 85px;}
+.gnb_support2 {position: relative; left: 25%; top: 9%;}
+            
+.subM li {height:40px; width:100%;     line-height: 40px;}
+.gnbMobile .subM li a:link, .subM li a:visited {display:block; height:100%; line-height:40px; white-space: nowrap; overflow:hidden; text-overflow: ellipsis; text-align:center;}
+.subM li a:hover , .subM li a:focus { background-color:#eee; font-weight:bold; display:block; width:100%; height:100%;}
+.gnbMobile.subM li a:hover , .gnbMobile.subM li a:focus { background-color:#eee; font-weight:bold;}
+.gnbMobile .subM li a:hover, .gnbMobile .subM li a:focus { background-color:#5e5e5e; font-weight:bold;}
+
+
+#main {width:100%;}
+.m_content.m1 {margin: 40px auto;}
+.m_content.m2 {margin-bottom: 180px;}
+.m2.m21 {height:380px; margin-top:50px; margin-bottom:50px;}
+.m2.m22 {overflow:hidden; height:360px;}
+.m22 .a31 {float:left; width:65%; overflow:hidden; height:100%;}
+.m22 .a33 {float:left; width:34.8%; border:1px solid #eee; height:100%;}
+.m_content.m3 { padding:20px 0; margin-bottom: 160px; /*border-top: 3px solid #f9ba48; */height:370px;
+   }
+.m_content.m4 { background:url("../images/m4_bg.png") no-repeat center bottom; margin-bottom:100px;}
+
+#footer {width:100%;}
+.f1 {height:60px; border-top:3px solid #FC853C; border-bottom:1px solid #FC853C; overflow:hidden;}
+.f2 {height:180px;}
+
+
+
+/*#footer*/
+/*.f1*/
+.f1 .container { overflow:hidden;}
+.f1_cont {position: absolute;
+    left: 0;
+     width: 200%; 
+    height: 100%;}
+.f_content.f1 .container>div {    width: 92%;
+    float: left;
+     overflow: hidden; 
+     position: relative; 
+    height: 100%;}
+
+.f1_cont li {float:left; width:148px; margin-right:10px; height:60px; line-height:90px;}
+.f1_cont li a {display:block; width:148px; height:41px;}
+
+.f1 p {float:left; width:8%; text-align: center;}
+.f1 p img {width:40px; height:40px;}
+.f1 p a {height: 60px; margin-top:9px;
+    line-height: 60px; display:block;}
+
+/*.f2*/
+.f2 .container {overflow:hidden;}
+.footer_logo {width:15%; float:left; text-align: center; height:20%; margin-top:70px;}
+.f2 address {float:left; width:49%; padding-right:10px; margin-top:50px;}
+
+.badge {float:right; margin-top:110px;}
+.badge li {float:left; margin-right:10px;}

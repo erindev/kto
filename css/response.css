@@ -1,0 +1,1522 @@
+/********************response-pc1************************/
+@media all and (min-width:1824px){
+	.gnb_support2 {left:20%; width:250px; }
+	#main .st1 li a {
+		margin-top: 57px;}
+	.desc_up {top:257px;}
+	
+/*	.guidebook.html*/
+	#main .bookSelect>ul li {
+		width: 184px;}
+}
+/********************response-pc2************************/
+@media all and (min-width:1281px) and (max-width:1823px) {
+    .container {width:80%;}
+    .m_content.m1 {height:170px;}
+	li.personal_setting {width:4%;}
+	.gnb li.search .searchLayer {width:435%;}
+	
+	.desc_up {top:258px;}
+	.main.video .govideo a {width:50px;    margin: 0 20px;}
+	.main.video .govideo>span { width:180px; margin-top:150px;}
+
+    .m2 .m22 {height:350px; margin-top:30px;}
+    .m22 .a31 {width:65%; height:100%; }
+    .m22 .a33 {width:34.8%;}
+    
+	.gnb_support2 {left:20%; width:220px; }
+	
+	.a33 div .arcco_desc {
+       padding-top: 10px;
+    height: 48px;
+    font-size: 16px;}
+
+	.tr42_train {height:243px;}
+	.tr42_train li a {padding-top:107px; height:110px;}
+	.tr43 {width:22%;}
+	.tr42 .control {width: 21%;}
+	.tr44 .control {width:38%;}
+	
+/*	서브공통*/
+	#main .contBody h3 {font-size:25px;}
+	
+/*	회원가입*/
+	#main .st1 li a {
+		margin-top: 55px;}
+	
+	
+    .tr41 {margin-right:30px;}
+    .tr42 {margin-right:10px;}
+    .tr43 {margin-right:30px;}
+    .tr44 {width:20%;}
+	
+	/*	빠른메뉴 추천여행지.html*/
+	.listImage li {
+    width: 24%;}
+	.listImage li img {width:100%;}
+	
+/*	nature.html*/
+	
+	#main .view li .detail a {font-size:16px;}
+	
+/*	adventure.html*/
+	.kt_category.adventure dl dd label {
+		width: 75px;}
+/*food_stay.html*/
+	.koreaTravel .kt_category dd label {width:65px;}
+	.koreaTravel .kt_category dd .kt_m label {width:100px;}
+
+/*	photo.html*/
+	#main .contArea .album_photo li {width:20.5%}
+
+/*business.html*/
+
+#main .circle ul li {width:230px;}
+	#main .circle .bingle {left:43%;}
+#main .circle ul li b {font-size:25px}
+.circle .c1 span {
+    color: #fff;
+    top: 48%;
+	left: 17%;}
+.circle .c2 span {
+    color: #fff;
+    top: 48%;
+	right: 9%;}
+.circle .c3 span {
+    color: #fff;
+    top: 52%;
+	right: 17%;}
+.circle .c4 span {
+    color: #fff;
+    top: 52%;
+	left: 45%;}
+.circle .c4 b {right:0;}
+.circle .bingle {left:43%;}
+	
+/*	guidebook.html*/
+	#main .bookSelect>ul li {
+		width: 155px; height:200px;}
+}
+
+/********************response-pc3************************/
+@media all and (min-width:901px) and (max-width:1280px) {
+
+	.top {right:-25px;}
+    .container{ width:90%;}
+    #header {width:100%;}
+    .in1 {display:none;}
+    .gnb {width:71%;}
+	.gnb_support2 {left:3%; width:220px; }
+	.logo {background-size:70%; top:52px;}
+	.slide.btn {top:272px;}
+	.gnb li.search .searchLayer {width:445%;}
+	.tc .read_more:link, .tc .read_more:visited {width: 25%;}
+	.desc_up {top:258px;}
+	#tab2>p {width:40%; height:100%;}
+	#tab2>p>strong {
+    display: block;
+    width: 100%;
+    font-size: 27px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 40px;
+    margin-top: 20px;}
+	#tab2>p>b {height:55px;}
+	#tab2 .list {width:60%;}
+	#tab2>p>a:link, #tab2>p>a:visited {margin-top:20px;}
+	#tab2 li.four {display:block;}
+	.a33 div .centerImage {display:block;}
+	
+	
+	.a33 div p {margin-bottom: 11px;}
+	.a33 dd p a {
+		border: 1.3px solid #b9b9b9;
+	background-color:#fff;}
+
+    
+    .fastmenu li {width:17%;}
+    .fastmenu li.personal_setting {width:7%;}
+    .m1 .fastmenu li.personal_setting a {background-size:38px;}
+    .m1 .fastmenu li a {background-size:75px;}
+
+    
+    .newsTab>li {margin-right:2%}
+    .panel .list .one {width:32%;}
+    .panel .list .two {width:32%;}
+    .panel .list .three {width:32%; margin-right: 0px;}
+    .panel .list .four {display:none;}
+    
+    .m2.m22 {height:400px;}
+    .m2.m22 .a31 {margin-right:10px; width:70%;}
+    .m2.m22 .a33 {width:33.2%; width:28.5%;}
+    .main.video {width:100%; height:295px; float:none; margin-right:0px; margin-bottom:5px;}
+	.main.video .govideo a {width:70px; margin:0 45px;}
+    .sub.video {float:none; overflow:hidden; height:100px; width:100%;}
+    .sub.video p {float:left; width:32.7%; height:100%;}
+	.sub.video p img {width:100%; 
+    position: static;}
+    .sub.video .subMiddle {margin:0px 5px;}
+
+		.main.video .govideo a {width:50px;    margin: 0 20px;}
+	.main.video .govideo>span { width:180px; margin-top:130px;}
+	
+	
+	.a33 div .arcco_desc {
+    padding-top: 20px;
+    height: 36px;}
+	.a33 dd p a {width:74%;}
+	.a33 .personal {
+    margin-bottom: 15px;}
+	.a33 div {padding:0px;}
+    
+	.m_content.m3 {height:287px; overflow:hidden;}
+    .poster {width:230%; height:307px}
+    .m_content.m3 .poster li {height: 100%;width: 13%; margin-right:10px;}
+	
+	.a33DD2 form {height: 202px;
+    display: block;}
+	.a33 input[type="email"] {width:90%; margin-bottom:10px; height:40px;}
+	.a33 #propose {Width:90%; height:40px;}
+	
+	.a33 .news_letter p {
+    font-size: 12px;
+    height: 63px; padding-top:10px;
+    line-height: 26px;}
+	.mailimage {display:block;}
+	.a33 .news_letter form fieldset>p {height:100px;}
+    
+    .travel_review {width:100%; margin:60px auto;}
+    .travel_review .tr41 {width:23%; margin-right:25px; margin-left:-15px;}
+
+    .travel_review .tr42 {width:24%; margin-right:10px; height:300px; margin-bottom:50px; margin-top:80px}
+    .travel_review .tr43 {margin-right:30px; width:23%;     background: url(../images/tr43_bg3.gif) no-repeat 35%;}
+    .travel_review .tr44 {width:22.2%; margin-right:0px; margin-top:50px;}
+    .travel_review .tr45 {display:none; }
+	.tr42 .control {
+    width: 29%;
+	}
+	.tr44 .control {width:43%; height:15px;}
+	.tr42 .control {width:30%; margin-top:150px;}
+	.tr42_train li a {height:132px; padding-top:120px;}
+	.m5_left {
+		width: 47%;}
+	.facebook {
+		width: 45%; padding:27px;}
+	.facebook_cont {margin-top:22px;}
+	.twitter dt span {font-size:15px;}
+	.blog b {font-size:20px;}
+	.facebook>a img {
+    width: 50px; }
+	.blog dd div p {
+    font-weight: bold;
+    font-size: 17px;
+		margin: 35px auto;}
+	.facebook_cont dt {height:140px;}
+	.facebook_cont dd {height:460px;}
+	.facebook_cont dd p {padding:6%;}
+	.facebook_cont div .goface {
+		width: 32%;}
+	.facebook_cont div .gojoin {
+		width: 24%;}
+	.facebook_cont dd>div img {
+		width: 60px;}
+	.facebook_cont dd div b {    font-size: 20px;
+    line-height: 45px; height:45px;}
+	.facebook_cont dd .title {
+		font-size: 20px; height:35px;}
+	.facebook_cont dd div span {height:0px; font-size:13px;}
+	
+	/*	login.html*/
+	.joinP label {display:none;}
+	.joinP input {    width: 90%;
+    margin-left: 0px;}
+	#main #loginForm ul li {margin:23px; }
+		#loginForm .joinP input[id="join"] {
+    /* margin-left: 30px; */
+    margin: 0;
+		width: 90%;}
+
+	
+	/*	서브 공통*/
+	.contArea h3 {font-size:35px;}
+	#main .contBody h3 {font-size:23px;}
+	.contBody .contArea {width:70%;}
+	.contBody .sub {width:25%;}
+
+/*회원가입.html*/
+.fourstep {
+		width: 100%;}	
+	#main .fourstep li {width:22%;}
+	#main .step li {width:22%;}
+	#main .st1 li {height:100px;}
+
+		/*	빠른메뉴 추천여행지.html*/
+	.listImage {width:100%; margin-right:0px;}
+	.listImage li {
+    width: 24%;}
+	.listImage>li.firstPhoto {width:100%; height:253px;}
+	.listImage li img {width:100%;}
+	#slider_main {width:100%;}
+	#slider_main li a {width:100%;}
+	#main #st3 input[type="text"], #st3 input[type="password"] {width:20%;}
+	#main #st3 p {margin:13px;}
+	
+/*	빠른메뉴 이벤트.html*/
+	.list {
+		width: 100%;}
+
+/*	가이드북.html*/
+	.bookSelect ul li {height:200px;}
+	
+/*빠른메뉴 관광지도*/
+	#map {height: 600px;}
+	
+/*	nature.html*/
+	#main .kt_cont li {height:470px;}
+	#main .kt_cont .con_txt {margin-bottom:20px;}
+	#main .koreaTrain .control {top:42%;}
+	
+	#main .view li .detail a {font-size:16px;}
+	/*	adventure.html*/
+	.kt_category.adventure dl dd label {
+		width: 75px;}
+	.kt_category.adventure dl dd p>span {
+
+    height: 90px;
+		line-height: 90px;}
+	.kt_category.adventure dl dd p>span img {top:30%;}
+	.food #food_search, .stay #stay_search {width:67%;margin-top: 20px;}
+	.kt_category.adventure dl dd input[type="submit"] {margin-top:20px;     line-height: 50px;}
+/*	food_stay.html*/
+	.koreaTravel .kt_category dd label {width:78px;}
+	.koreaTravel .kt_category dd .kt_m label {width:100px;}
+	.koreaTravel .kt_category dd p>span {height:90px; line-height:90px;}
+	.koreaTravel .kt_category dd p>span img {margin-top:5%;}
+	.koreaTravel .kt_category dd input[type="submit"] {line-height:0;margin:20px 5px;}
+	
+/*	koreaInfo.html*/
+	.kc p>img {width:100%;}
+	.kc p {height:55px;}
+/*	hire.html*/
+	#main .hire ul {bottom:-20px;}
+	
+	/*	photo.html*/
+	#main .contArea .album_photo li {width:28%}
+/*	business.html*/
+	#main .vision ul {width:100%;}
+
+#main .circle ul li {width:185px;}
+#main .circle ul li b {font-size:20px}
+	.circle .c2 b {right:15%;}
+.circle .c1 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	left: 17%;}
+.circle .c2 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	right: -6%;}
+.circle .c3 span {
+    color: #fff;font-size: 15px;
+    top: 52%;
+	right: 5%;}
+.circle .c4 span {
+    color: #fff;
+    top: 52%;font-size: 15px;
+	left: 45%;}
+.circle .c4 b {right:-13%;}
+.circle .bingle {left:42%;}
+	.circle_desc {display:none;}
+	
+/*	guidebook.html*/
+	#main .bookSelect>ul li {width:170px;}
+}
+/********************response-tablet************************/
+@media all and (min-width:768px) and (max-width:900px) {
+	.top {right:-25px;}
+    html {font-size: 0.9em;}
+    .container{ width:90%;}
+    #header {width:100%;}
+    .in1 {display:none;}
+    .gnb {width:66%;}
+	.gnb_support2 {left:3%; width:220px; }
+	.logo {background-size:70%; top:52px;}
+	.slide.btn {top:272px;}
+	.gnb li.search .searchLayer {width:520%;}
+	.tc .read_more:link, .tc .read_more:visited {width: 25%;}
+	.desc_up {top:259px;}
+	#tab2>p {width:40%; height:100%;}
+	#tab2>p>strong {
+    display: block;
+    width: 100%;
+    font-size: 27px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 40px;
+    margin-top: 20px;}
+	#tab2>p>b {height:55px;}
+	#tab2 .list {width:60%;}
+	#tab2>p>a:link, #tab2>p>a:visited {margin-top:20px;}
+	#tab2 li.four {display:block;}
+	.a33 div .centerImage {display:block;}
+	
+	
+	.a33 div p {margin-bottom: 11px;}
+	.a33 dd p a {
+		border: 1.3px solid #b9b9b9;
+	background-color:#fff;}
+
+    
+    .fastmenu li {width:16%;     margin-right: 10px;}
+    .fastmenu li.personal_setting {    width: 7%;
+    margin-left: 15px;}
+    .m1 .fastmenu li.personal_setting a {background-size:38px;}
+    .m1 .fastmenu li a {background-size:75px;}
+
+    
+    .newsTab>li {margin-right:2%}
+    .panel .list .one {width:32%;}
+    .panel .list .two {width:32%;}
+    .panel .list .three {width:32%; margin-right: 0px;}
+    .panel .list .four {display:none;}
+    
+    .m2.m22 {height:400px; margin-top:20px;}
+    .m2.m22 .a31 {margin-right:10px; width:60%;}
+    .m2.m22 .a33 {width:38%;}
+    .main.video {width:100%; height:295px; float:none; margin-right:0px; margin-bottom:5px;}
+    .sub.video {float:none; overflow:hidden; height:100px; width:100%;}
+    .sub.video p {float:left; width:32.5%; height:100%;}
+	.sub.video p img {width:100%; 
+    position: static;}
+    .sub.video .subMiddle {margin:0px 5px;}
+	
+			.main.video .govideo a {width:50px;    margin: 0 20px;}
+	.main.video .govideo>span { width:180px; margin-top:130px;}
+	
+
+	.a33 div .arcco_desc {
+    padding-top: 20px;
+    height: 36px;}
+	.a33 dd p a {width:74%;}
+	.a33 .personal {
+    margin-bottom: 15px;}
+    
+	.m_content.m3 {height:287px; overflow:hidden;}
+    .poster {width:230%; height:307px}
+    .m_content.m3 .poster li {height: 100%;width: 13%; margin-right:10px;}
+	
+	.a33DD2 form {height: 202px;
+    display: block;}
+	.a33 input[type="email"] {width:90%; margin-bottom:10px; height:40px;}
+	.a33 #propose {Width:90%; height:40px;}
+	.a33 div {padding:0px;}
+	.a33 .news_letter p {
+    font-size: 12px;
+    height: 63px; padding-top:10px;
+    line-height: 26px;}
+	.mailimage {display:block;}
+	.a33 .news_letter form fieldset>p {height:100px;}
+    
+    .travel_review {width:100%; margin:100px auto;     height: 800px;}
+    .travel_review .tr41 {width:49%; margin-right:25px; margin-left:-15px;}
+
+    .travel_review .tr42 {width: 45%; height:300px; margin-bottom:50px; margin-top:80px}
+    .travel_review .tr43 {display:none;}
+	.travel_review .tr44{     width: 45%;
+    margin-right: 15px;
+    margin-top: -70px;}
+    .travel_review .tr45 {    display: block;
+    width: 51%;
+    height: 300px;
+    margin-right: 0px; }
+	.tr42 .control {
+    width: 29%;
+	}
+	.tr44 .control {width:43%; height:15px;}
+	.tr42 .control {width:30%;}
+	.tr42_train li a {height:132px; padding-top:120px;}
+	.m_content.m5 {height: 1600px;}
+    .m5_sns_content {width:100%; overflow:visible;}
+    .m5_left {width:100%; overflow:hidden; float:none;}
+    .m5_left dt {height:50px;}
+    .m5_left dt span {height:45px; line-height:0px; font-size:18px;}
+    .m5_left dt img {width:40px;}
+	.twitter dt span {line-height:35px;}
+.twitter dd span {
+    font-size: 11px;
+    color: gray;
+    display: block;
+    text-indet: 1em;
+    display: block;
+    text-indent: 1em;
+	line-height: 0px;}
+	.twitter dd>p {font-size:15px; margin:10px auto;}
+
+	.twitter dd>b {
+    height: 40px;
+    line-height: 33px;
+    display: block;
+    text-indent: 1em;
+}
+	
+	.blog b {
+    display: block;
+    font-size: 23px;
+    height: 28px;
+    line-height: 28px;
+}
+
+	.facebook {
+    width: 94%;
+	margin-top:20px;
+    background-color: #3f51b5;
+    padding: 22px;
+
+}
+	
+	.facebook_cont dt {
+    height: 129px;
+    padding: 12px;
+}
+	.facebook_cont div .goface {
+		width: 17%;}
+	.facebook_cont div .gojoin {
+		width: 12%;}
+	
+	.facebook_cont dd {
+		height: 200px;}
+    .friend_like {display:none;}
+	.facebook_cont dd>div img {width:55px;}
+	.facebook_cont dd div b {line-height:45px; font-size:20px; height:40px;}
+	.facebook_cont dd div span {float:none; text-indent:0.em;}
+	
+	
+	.blog dd div p {float:left;     margin: 15px auto;}
+	.facebook>b {font-size:19px;}
+	.facebook>a img {
+		width: 100%;}
+	.facebook>a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+		text-align: right;}
+
+	
+	/*	login.html*/
+	#main #loginForm {height:435px;}
+	.joinP label {display:none;}
+	.joinP input {    width: 90%;
+    margin-left: 0px;}
+	#main #loginForm ul li {margin:15px; margin-bottom: 30px;}
+	.login_description ol li {
+    width: 50%;
+		margin-bottom: 20px;}
+		#loginForm .joinP input[id="join"] {
+    /* margin-left: 30px; */
+    margin: 0;
+		width: 90%;}
+	#main .joinP {margin-top:-15px;}
+	
+	
+	
+		
+/*	서브 공통*/
+	.contArea h3 {font-size:35px;}
+	.contBody h3 {font-size:30px;}
+	.contBody .contArea {width:70%;}
+	.contBody .sub {width:25%;}
+	
+	
+	/*회원가입.html*/
+	#main .fourstep {
+		width: 80%; height:110px;}	
+	#main .fourstep li {width:20%;}
+	
+	#main .st1 {    margin-left: 14%;}
+	#main .st1 li {height:100px;font-size: 1em; width:20%;}
+	#main #st3 input[type="text"], #st3 input[type="password"] {width:22%;}
+
+	#main #st3 .detailAddress input[type="text"] {width:80%; margin-bottom:5px;}
+		/*	빠른메뉴 추천여행지.html*/
+	.listImage {width:100%; margin-right:0px;}
+	.listImage li {
+    width: 24%;}
+	.listImage>li.firstPhoto {width:100%;}
+	.listImage li img {width:100%;}
+	#slider_main {width:100%;}
+	#slider_main li a {width:100%;}
+
+	.monthTrainBody li:nth-child(3) {display:none;}
+	
+	/*	가이드북.html*/
+	.bookSelect ul li {height:180px;}
+	
+	/*빠른메뉴 관광지도*/
+	#map {height: 500px;}
+	
+/*	nature.html*/
+	#main .contBody .sub {width:19%;}
+	#main .kt_cont .ktc h3 {font-size:27px;}
+	#main .kt_cont .ktc h4 {font-size:18px;}
+	#main .kt_cont .con_txt {display:none;}
+	#main .koreaTrain .control {top:53%;}
+	#main #nature_search {margin: 50px 10px 50px 70px;}
+
+	#main .kt_cont li {height:400px;}
+	#main .view li .img {width:40%}
+	
+	#main .view li .detail a {font-size:15px;}
+		/*	adventure.html*/
+	.kt_category.adventure dl dd label {
+		width: 65px;}
+	.kt_category.adventure dl dd p>span {
+
+    height: 90px;
+		line-height: 90px;}
+	.kt_category.adventure dl dd p>span img {top:30%;}
+	.food #food_search, .stay #stay_search {width:63%;margin-top: 20px;}
+	.kt_category.adventure dl dd input[type="submit"] {margin-top:20px;     line-height: 50px;}
+	
+/*	adventure.html*/
+	.monthView.adventure dt {width:150px;}
+	.monthView.adventure dd {    margin-top: 15px;
+    margin-bottom: 15px;}
+	
+	/*	food_stay.html*/
+	.koreaTravel .kt_category dd label {width:65px;}
+	.koreaTravel .kt_category dd .kt_m label {width:75px;}
+	.koreaTravel .kt_category dd p>span {height:90px; line-height:90px;}
+	.koreaTravel .kt_category dd p>span img {margin-top:5%;}
+	.koreaTravel .kt_category dd input[type="submit"] {line-height:0; margin-top:20px;}
+	
+	/*	koreaInfo.html*/
+	.kc p>img {width:94%;}
+	.koreaCont .kc p {height:27px;    padding-top: 10px; font-size:15px;}
+	
+/*	notice.html*/
+	.board .tile ol li {width:40%;}
+	.board .tile ol li a b {text-overflow: ellipsis;overflow: hidden;white-space: nowrap; margin:0 10px; width:90%;}
+	
+	/*	hire.html*/
+	#main .hire {    margin-bottom: 200px;}
+	#main .hire ul {bottom:-20px;}
+	
+		
+	/*	photo.html*/
+	#main .contArea .album_photo li {width:27%}
+	
+	/*	business.html*/
+	#main .vision ul {width:100%;}
+
+	#main .circle ul {width:58%;}
+#main .circle ul li {width:185px;}
+#main .circle ul li b {font-size:20px}
+	.circle .c2 b {right:15%;}
+.circle .c1 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	left: 17%;}
+.circle .c2 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	right: -6%;}
+.circle .c3 span {
+    color: #fff;font-size: 15px;
+    top: 52%;
+	right: 5%;}
+.circle .c4 span {
+    color: #fff;
+    top: 52%;font-size: 15px;
+	left: 45%;}
+.circle .c4 b {right:-13%;}
+.circle .bingle {left:40%;}
+	.circle_desc {display:none;}
+	
+}
+/********************response-phone1************************/
+@media all and (min-width:421px) and (max-width:767px) {
+    html {font-size: 0.8em; width:100%; height:100%;}
+    .container{ width:90%;}
+	.top {display:none;}
+	.popWrap {    width: 350px;
+    height: 350px; padding:15px;}
+	.popWrap img {    width: 150px;}
+	
+    #header {width:100%; height:84px;}
+    .lnb{display:none;overflow:visible;}
+    .logo {left: 23%;
+    position: absolute;}
+    #header .logo a {width: 130px;height: 50px;}
+    nav { top:0px;position:absolute; overflow:hidden; z-index:2;}
+	
+    .menuicon {display:block; width:24px; height:24px; position:absolute; top:35%;}
+	.menuicon a {display:block; width:100%; height:100%;}
+	
+    .gnbGeneral {display:none;}
+	.tc .read_more:link, .tc .read_more:visited {width:40%; margin:auto;}
+	
+	
+
+	.gnbMobile {display:block;}
+    
+    
+    
+    
+    .visual {width: 100%;height: 350px;overflow: hidden; top:0px;}
+	.tt .container { width:90%;}
+   .slide.btn {     bottom: 0;
+    position: absolute;
+    top: 160px;
+    width: 50%; height:20px;
+    left: 35%;
+	}
+	
+	.slide.btn ul {margin-top:0;}
+	.playing a {
+    display: block;
+    width: 20px;
+		height: 20px;}
+    .tc {    background-color: rgba(0,0,0,0.5);
+    width: 89%;
+    height: 160px;
+    z-index: 1;
+    margin: auto;
+    top: 20%;
+    padding: 20px;
+    left: 0%; 
+    position: absolute;}
+    .tc h3 {    font-size: 20px;      text-align: center;
+    height: 75px; line-height: 75px; 
+      
+    color:#fff;}
+    .tc h4 {font-size: 1.5em;
+    font-weight: normal; 
+    height: 40px; text-align: center;
+    color: #eee;}
+    
+    
+    .fastmenu {display:none;}
+    .fastmenu_mobile {display:block; overflow:hidden;}
+    .fastmenu_mobile li {    float: left;
+    width: 31.5%;
+    margin-bottom: 10px;
+    margin-right: 10px;}
+	.fastmenu_mobile li.mr_none {margin-right:0px;}
+    .fastmenu_mobile li a:link, .fastmenu_moblie li a:visited {display:block; width:100%; height:50px; line-height:50px; background-color:#d8d8d8; text-indent: 1em;}
+    .fastmenu_mobile li img {width:30px; vertical-align: middle; margin-right:10px;}
+	.fastmenu_mobile li a:hover, .fastmenu_mobile li a:focus {border:2px solid #f9ba48; width:99%; height:46px; font-weight:bold; background-color:#fff;}
+
+	#tab2>p {display:none;}
+	#tab2 .list {width:100%;}
+	#tab2 li.four {display:block;}
+	.newsTab>li {margin-right:2%}
+    .panel {height:250px;}
+    .panel .list .one {width:49%;}
+    .panel .list .two {width:49%; margin-right: 0px;}
+    .panel .list .three, .panel .list .four {display:none;}
+	.newsTab li>a:link, .newsTag li>a:visited {
+		font-size: 15px;}
+	.list .desc_up {top:211px;}
+    
+    .m_content.m2 {margin-bottom:120px;}
+.m2.m21 {
+    height: 320px;
+}
+    .m2.m22 {height:250px;}
+    .m2.m22 .a31 {margin-right:0px; width:100%; height:100%; float:none;}
+    .m2.m22 .a33 {display:none;}
+    .main.video {width:100%; height:100%; float:none; margin-right:0px; margin-bottom:5px;}
+    .sub.video {display:none;}
+	
+	.main.video .govideo a {width:50px;    margin: 0 20px;}
+	.main.video .govideo>span { width:180px; margin-top:100px;}
+    
+    .m_content.m3 {height:130px; paddding:10px 0; display:none; background:url("../images/korea_line.jpg") repeat -25px -25px; margin-bottom:80px; border:0 none;}
+    .m_content.m3 .poster {display:none;}
+    .m_content.m3 .poster_btn {display:none;}
+    
+	.travel_review .tr41  {display:none;}
+	.travel_review .tr42 {display:block; width:50%; margin-right:8px;}
+	.travel_review .tr43 {display:block; width:46%; margin-right:0;}
+	.travel_review .tr42 .tr42_train p {text-overflow: ellipsis; overflow:hidden; white-space: nowrap;}
+	.travel_review .tr42 .control {width:34%;}
+	.travel_review .tr44 {display:none;}
+	.travel_review .tr45 {display:none;}
+	.travel_review_mobile {display:none;}
+    .travel_review_mobile li {float:left; width:100%; height:70px;}
+    .travel_review_mobile li a:link, .travel_review_mobile li a:visited {display:block; width:30%; float:left; height:100%; font-weight: bold; font-size:20px; line-height:70px; text-align: center; background-color: #d8d8d8; margin-right:10px;}
+	.travel_review_mobile li a:hover, .travel_review_mobile li a:focus {border:2px solid #f9ba48; font-weight:bold; background-color:#fff; width:29%; height:66px;}
+    
+/*
+    
+    .travel_review_mobile li a::after {
+    content: ""; position: absolute; top: 100%; left: 50%; margin-left: -10px; border-width: 10px; border-style: solid; border-color: #5e5e5e transparent  transparent transparent ;
+    }   
+*/
+    
+    .travel_review_mobile li p {float:left; width:67%; height:400%; position:relative;}
+    .travel_review_mobile li p img {width:100%;}
+    .travel_review_mobile li span {  display:none;  /* float: right; */
+    display: block;
+    width: 79%;
+    font-size: 16px;
+    height: 80%;
+    padding: 28px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    line-height: 30px;
+}
+
+	.m_content.m5 {height: 1600px;}
+    .m5_sns_content {width:100%; overflow:visible;}
+    .m5_left {width:100%; overflow:hidden; float:none;}
+    .m5_left dt {height:50px;}
+    .m5_left dt span {height:45px; line-height:0px; font-size:18px;}
+    .m5_left dt img {width:40px;}
+	.twitter dt span {line-height:35px; font-size:16px;}
+.twitter dd span {
+    font-size: 11px;
+    color: gray;
+    display: block;
+    text-indet: 1em;
+    display: block;
+    text-indent: 1em;
+	line-height: 0px;}
+	.twitter dd>p {font-size:15px; margin:10px auto;}
+
+	.twitter dd>b {
+    height: 40px;
+    line-height: 33px;
+    display: block;
+    text-indent: 1em;
+}
+	
+	.blog b {
+    display: block;
+    font-size: 23px;
+    height: 28px;
+    line-height: 28px;
+}
+
+	.facebook {
+    width: 89%;
+	margin-top:20px;
+    background-color: #3f51b5;
+    padding: 22px;
+
+}
+	
+	.facebook_cont dt {
+    height: 129px;
+    padding: 12px;
+}
+	.facebook_cont div .goface {
+		width: 17%;}
+	.facebook_cont div .gojoin {
+		width: 12%;}
+	
+	.facebook_cont dd {
+		height: 200px;}
+    .friend_like {display:none;}
+	.facebook_cont dd>div img {width:55px;}
+	.facebook_cont dd div b {line-height:45px; font-size:20px; height:40px;}
+	.facebook_cont dd div span {float:none; text-indent:0.em;}
+	
+	
+	.blog dd div p {float:left;     margin: 15px auto;}
+	.facebook>b {font-size:19px;}
+	.facebook>a img {
+		width: 100%;}
+	.facebook>a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+		text-align: right;}
+	.facebook_cont dd .title {
+		font-size: 20px;}
+	.footer_logo {
+		width: 40%;}
+	
+	
+	
+	/*	login.html*/
+	
+	#loginForm ul {display:none;}
+	
+	#main #loginForm {height:435px;}
+	.joinP label {display:none;}
+	.joinP input {    width: 90%;
+    margin-left: 0px;}
+	#main #loginForm fieldset { float:left;
+    width: 100%;}
+	#main #loginForm ul li {margin:15px; margin-bottom: 30px;}
+	.login_description ol li {
+    width: 50%;
+		margin-bottom: 20px;}
+	#loginForm .joinP input[id="join"] {
+    /* margin-left: 30px; */
+    margin: 0;
+		width: 90%;}
+	#main .joinP {margin-top:-15px;}
+	#main .login_description ol li {width:50%;}
+	#main .login_description ul li {
+    text-indent: 0em;
+
+		line-height: 15px;}
+	
+/*	서브 공통*/
+	.contArea h3 {font-size:25px;}
+	.contBody h3 {font-size:20px;}
+	.contBody .contArea {width:70%;}
+	.contBody .sub {width:25%;}
+	.contBody .contName {height:250px;}
+	
+	/*회원가입.html*/
+	#main .fourstep {
+		width: 100%; height:110px;}	
+	#main .fourstep li {width:20%; font-size:18px;}
+	#main .fourstep li span {font-size:13px;}
+	#main .step {width:100%;}
+	#main .st1 {    margin-left: 5%;}
+	#main .st1 li {height:100px;font-size: 1em; width:20%;}
+
+	#main #st3 input[type="text"], #main #st3 input[type="password"] {width:60%;}
+	#main #st3 .detailAddress input[type="text"] {width:80%; margin-bottom:5px;}
+	#main .join_description p {width:60%; float:none; margin:10px auto;}
+	#main .join_description ul {float:none; width:100%;}
+	#main .join_description ul li {margin:5px 0;}
+	#main #st3 label {width:95px;}
+	#main #st3 input[type="button"], #main #st3 input[type="reset"] {
+		width:90%; margin:5px;
+	}
+	#main #st3 input[type="text"]#useremail1 {margin-bottom:5px;}
+
+	#main #st3 .radio label {width:87px;}
+	#main #st3 input[type="text"]#phone1,#main #st3 input[type="text"]#phone2, #main #st3 input[type="text"]#phone3, #main #st3 input[type="text"]#post1,#main #st3 input[type="text"]#post2 {width:18%}
+	#main #st3 input[type="text"]#useremail { margin-bottom:5px;}
+	#main #st3 input[type="button"]#postcode {width:22%; margin:0;}
+	#main #st3 input[type="button"]#prevbtn, #main #st3 input[type="reset"]#join_cancle {width:45%; margin-bottom:4px;}
+	
+		/*	빠른메뉴 추천여행지.html*/
+	.listImage {width:100%; margin-right:0px;}
+	.listImage li {
+    width: 24%;}
+	.listImage>li.firstPhoto {width:100%;}
+	.listImage li img {width:100%;}
+	#slider_main {width:75%;}
+	#slider_main li a {width:100%;}
+
+	.monthTrainBody li:nth-child(3) {display:none;}
+	
+	/*	빠른메뉴 추천여행지.html*/
+	.listImage {width:100%; margin-right:0px; height:275px;}
+	.listImage li {
+    width: 23%; height:50px;	}
+	.listImage>li.firstPhoto {width:100%; height:200px;}
+	.listImage li img {width:100%; height:100%;}
+	#slider_main {width:100%;}
+	#slider_main .listImage {width:100%;}
+	#slider_main .listImage>li.firstPhoto {height:276px;}
+	.list#slider_main li a {width:95%; margin:0 10px;}
+	
+	.monthTrain {display:none;}
+	.monthView dl {    height: 350px;}
+	#main .monthView dt {width:100%; height:70px;}
+	.rec_goods h4 {
+		font-size: 16px;}
+	.rec_goods h4 span {font-size:35px;}
+	.listImage>li.lastPhoto img {
+    width: 30px;
+		height: 40px; vertical-align: middle;}
+	
+	/*	빠른메뉴 이벤트.html*/
+	.list {
+		width: 100%;}
+	
+	/*	가이드북.html*/
+	.bookSelect ul li {height:150px;}
+	.category input[type="button"] {width:80px; font-size:14px;}
+	
+		
+	/*빠른메뉴 관광지도*/
+	#map {height: 400px;}
+	
+	/*	nature.html*/
+	#main .contBody .sub {display:none;}
+	#main .kt_cont .ktc h3 {font-size:24px;}
+	#main .kt_cont .ktc h4 {font-size:15px;}
+	#main .kt_cont .con_txt {display:none;}
+	#main .koreaTrain .control {    top: 6%;
+    left: 60%;}
+	#main #nature_search {   margin: 10px 10px 10px 37px;}
+	#main .contBody .contArea {float:none; margin:auto; width:98%;}
+	#main .contArea h4 {font-size:16px; margin-top:40px; line-height:0; margin-bottom:20px;}
+	#main .koreaTrain {width:100%;}
+	#main .kt_category {margin-top:20px;     margin-bottom: -150px;}
+	#main .kt_cont li {height:300px;}
+	
+	#main .view li .img {    width: 50%;
+    height: 190px;}
+	#main .view li .etc {display:none;}
+	#main .order li {width:90px;}
+	#main .view li .tit a {
+       color: #123456;
+    display: block;
+    height: 41px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 7px 0; }
+	
+	#main .view li .detail a {font-size:15px;}
+	
+	 li .detail a {font-size:15px;}
+		/*	adventure.html*/
+	.kt_category.adventure dl dd label {
+		width: 65px;}
+	.kt_category.adventure dl dd p>span {    height: 55px;
+    line-height: 55px;
+    width: 100px;}
+	.kt_category.adventure dl dd p>span img {top:20%;}
+	.food #food_search, .stay #stay_search {width:50%;}
+	.kt_category.adventure dl dd input[type="submit"] {    width: 16%;line-height: 50px;}
+	.kt_category.adventure dl dd .city {display:none;}
+	.monthView.adventure dt {width:150px;}
+	.monthView.adventure dd {    margin-top: 15px;
+    margin-bottom: 15px;}
+	#main .rec_goods h4 {font-size:20px;    height: 120px;}
+	#main .rec_goods h4 span {
+		font-size: 35px;}
+	#main .kt_category.adventure dl {height:80px;}
+	
+		
+	/*	food_stay.html*/
+	.kt_m0, .kt_m {display:none;}
+	.koreaTravel .kt_category dd p>span {width:115px;}
+	.koreaTravel #food_search, #stay_search {width:50%;}
+	#main .kt_category {margin-bottom:0;}
+	
+		
+	/*	koreaInfo.html*/
+
+
+	.koreaCont .kc {height:500px;}
+	.koreaCont .kc ul {display:none;}
+
+	.kc p>img {width:94%;}
+	.koreaCont .kc p {height:27px;   width:100%; padding-top: 10px; font-size:15px;}
+	
+	/*	notice.html*/
+	.board .tile ol li {width:40%;}
+	.board .tile ol li a b {text-overflow: ellipsis;overflow: hidden;white-space: nowrap; margin:0 10px; width:90%;}
+	.contBody .board {margin-top:30px;}
+	
+		/*	hire.html*/
+	#main .hire {    margin-bottom: 50px;}
+	#main .hire ul {bottom:100px; width:100%; left:0;}
+	#main .hire p {font-size:20px;}
+	#main .hire ul li a b { text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+	
+	#main .hire .cp2 {display:none;}
+		/*	photo.html*/
+	#main .contArea .album_photo li {    width: 42%;}
+	#main .album form p.txt {font-size:20px; width:40%; line-height:40px;}
+	#main .album form p {width:30%;}
+	
+	/*	business.html*/
+	
+	#main .vision ul li img {display:none;}
+	#main .vision ul {width:100%;}
+
+	#main .circle ul {width:100%;}
+#main .circle ul li {width:170px;}
+#main .circle ul li b {font-size:20px}
+	.circle .c2 b {right:3%;}
+.circle .c1 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	left: 17%;}
+.circle .c2 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	right: -6%;}
+.circle .c3 span {
+    color: #fff;font-size: 15px;
+    top: 52%;
+	right: 5%;}
+.circle .c4 span {
+    color: #fff;
+    top: 52%;font-size: 15px;
+	left: 45%;}
+.circle .c4 b {right:-17%;}
+.circle .bingle {left:30%;}
+	.circle_desc {display:none;}
+	
+	.instacont { margin-top:10px;}
+	
+/*	customerSound.html*/
+	#main #writeForm .form {width:100%;}
+	#main #writeForm .agreepart span {width:100%; display:block;}
+	#main #writeForm textarea {font-size:11px;}
+	
+/*	request.html*/
+	#main .require form p input[type="submit"] {width:35%;}
+	#main .contArea .require form p  {line-height:16px;}
+	#main .require form #post1, #main .require form #post2 { width:60px;}
+	#main .require form #postcode {width:75px;}
+	
+/*	guidebook.html*/
+	#main .bookSelect>ul li {width: 160px;
+		height: 210px;}
+		#main .category select {width:115px;}
+
+	
+}
+/********************response-phone2************************/
+@media all and (max-width:420px) {
+    html {font-size: 0.8em; width:100%; height:100%;}
+   .container{ width:90%;}
+    #header {width:100%; height:84px;  z-index: 3; position:relative;}
+    .lnb{display:none;overflow:visible;}
+    .logo {    left: 31%;
+    height: 50px;
+    top: 10%;
+    position: absolute;
+}
+	
+	.popWrap {    width: 350px;
+    height: 350px; padding:15px;}
+	.popWrap img {    width: 150px;}
+	
+    #header .logo a {width: 100%;height:100%;}
+	#header .logo a img { display:block; height:100%;}
+    nav { top:0px; overflow:hidden; z-index: 2;}
+	
+    .menuicon {display:block; width:32px; height:32px; position:absolute; top:35%;}
+	.menuicon a {display:block; width:100%; height:100%;}
+	
+    .gnbGeneral {display:none;}
+	.tc .read_more:link, .tc .read_more:visited {width:40%; margin:auto;}
+	
+	
+	.gnbMobile {display:block;}
+    
+	.top {display:none;}
+    
+    .visual {width: 100%;height: 240px;overflow: hidden; top:0px; position:relative;}
+	.tt .container { width:90%;}
+	.banner_btn {height:20px; top:88%;}
+	.banner_btn .previous {display:none;}
+	.banner_btn .next {display:none;}
+   .slide.btn {    
+    position: absolute;
+    top:0;
+    width: 50%; height:20px;
+    left: 32%;
+	}
+	.slide.btn ul {margin-top:0;}
+	.playing a {
+    display: block;
+    width: 20px;
+		height: 20px;}
+    .tc {background-color: rgba(0,0,0,0.5);
+    width: 95%;
+    height: 104px;
+    margin: auto;
+    top: 20%;
+    padding: 10px;
+    left: 0%;}
+	.tc h3 {
+    font-size: 25px;
+    height: 40px; color:#fff;
+     line-height: 33px; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;}
+    .tc h4 {font-size: 1.5em;
+    font-weight: normal; 
+    height: 19px; text-align: center;
+    color: #eee;}
+    
+    
+    .fastmenu {display:none;}
+    .fastmenu_mobile {display:block; overflow:hidden;}
+    .fastmenu_mobile li {    float: left;
+    width: 48.5%;
+    margin-bottom: 10px;
+    margin-right: 10px;}
+	.fastmenu_mobile li.mr_none2 {margin-right:0px;}
+	.fastmenu_mobile li.mn2 {margin-right:0px;}
+    .fastmenu_mobile li a:link, .fastmenu_moblie li a:visited {display:block; width:100%; height:50px; line-height:50px; background-color:#d8d8d8; text-indent: 1em;}
+    .fastmenu_mobile li img {width:30px; vertical-align: middle; margin-right:10px;}
+	.fastmenu_mobile li a:hover, .fastmenu_mobile li a:focus {border:2px solid #f9ba48; width:99%; height:46px; font-weight:bold; background-color:#fff;}
+
+	#tab2>p {display:none;}
+	#tab2 .list {width:100%;}
+	#tab2 li.four {display:block;}
+	.newsTab>li {margin-right:2%}
+    .panel {height:250px;}
+    .panel .list .one {width:49%;}
+    .panel .list .two {width:49%; margin-right: 0px;}
+    .panel .list .three, .panel .list .four {display:none;}
+	.newsTab li>a:link, .newsTag li>a:visited {
+		font-size: 15px;}
+	.list .desc_up {top:211px;}
+    
+    .m_content.m2 {margin-bottom:120px;}
+.m2.m21 {
+    height: 320px;
+}
+    .m2.m22 {height:250px; margin-top:30px;}
+    .m2.m22 .a31 {margin-right:0px; width:100%; height:100%; float:none;}
+    .m2.m22 .a33 {display:none;}
+    .main.video {width:100%; height:100%; float:none; margin-right:0px; margin-bottom:5px;}
+    .sub.video {display:none;}
+	
+	.main.video .govideo a {width:50px;    margin: 0 20px;}
+	.main.video .govideo>span { width:180px; margin-top:100px;}
+    
+    .m_content.m3 {height:130px; paddding:10px 0; display:none; background:url("../images/korea_line.jpg") repeat -25px -25px; margin-bottom:80px; border:0 none;}
+    .m_content.m3 .poster {display:none;}
+    .m_content.m3 .poster_btn {display:none;}
+    
+	.travel_review .tr41  {display:none;}
+	.travel_review .tr42 {display:block; width:100%;}
+	.travel_review .tr43 {display:none;}
+	.travel_review .tr44 {display:none;}
+	.travel_review .tr45 {display:none;}
+	.travel_review_mobile {display:none;}
+	/*{display:block; overflow:hidden;     margin: 60px auto;}*/
+    .travel_review_mobile li {float:left; width:100%; height:70px;}
+    .travel_review_mobile li a:link, .travel_review_mobile li a:visited {display:block; width:30%; float:left; height:100%; font-weight: bold; font-size:20px; line-height:70px; text-align: center; background-color: #d8d8d8; margin-right:10px;}
+	.travel_review_mobile li a:hover, .travel_review_mobile li a:focus {border:2px solid #f9ba48; font-weight:bold; background-color:#fff; width:29%; height:66px;}
+    
+/*
+    
+    .travel_review_mobile li a::after {
+    content: ""; position: absolute; top: 100%; left: 50%; margin-left: -10px; border-width: 10px; border-style: solid; border-color: #5e5e5e transparent  transparent transparent ;
+    }   
+*/
+    
+    .travel_review_mobile li p {float:left; width:67%; height:320%; position:relative;}
+    .travel_review_mobile li p img {width:100%;}
+    .travel_review_mobile li span {  display:none;  /* float: right; */
+    display: block;
+    width: 79%;
+    font-size: 16px;
+    height: 100%;
+    padding: 28px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    line-height: 30px;
+}
+
+	.m_content.m5 {height: 1600px;}
+    .m5_sns_content {width:100%; overflow:visible;}
+    .m5_left {width:100%; overflow:hidden; float:none;}
+    .m5_left dt {height:50px;}
+    .m5_left dt span {height:45px; line-height:0px; font-size:17px;}
+    .m5_left dt img {width:40px;}
+	.m5_left dd {width:93%;}
+	.twitter dt span {line-height:35px; font-size:16px;}
+.twitter dd span {
+    font-size: 11px;
+    color: gray;
+    display: block;
+    text-indet: 1em;
+    display: block;
+    text-indent: 1em;
+	line-height: 0px;}
+	.twitter dd>p {font-size:15px; margin:10px auto;}
+
+	.twitter dd>b {
+    height: 40px;
+    line-height: 33px;
+    display: block;
+    text-indent: 1em;
+}
+	
+	.blog b {
+    display: block;
+    font-size: 23px;
+    height: 28px;
+    line-height: 28px;
+}
+
+	.facebook {
+    width: 87%;
+	margin-top:20px;
+    background-color: #3f51b5;
+    padding: 22px;
+
+}
+	
+	.facebook_cont dt {
+    height: 129px;
+    padding: 12px;
+}
+	.facebook_cont div .goface {
+		width: 17%;}
+	.facebook_cont div .gojoin {
+		width: 12%;}
+	
+	.facebook_cont dd {
+		height: 200px;}
+    .friend_like {display:none;}
+	.facebook_cont dd>div img {width:55px;}
+	.facebook_cont dd div b {line-height:45px; font-size:20px; height:40px;}
+	.facebook_cont dd div span {float:none; text-indent:0.em;}
+	
+	
+	.blog dd div p {float:left;     margin: 15px auto;}
+	.facebook>b {font-size:19px;}
+	.facebook>a img {
+		width: 100%;}
+	.facebook>a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 17px;
+    right: 20px;
+		text-align: right;}
+	
+		.facebook_cont dd .title {
+		font-size: 20px;}
+	.footer_logo {
+		width: 40%;}
+	
+	
+	
+	
+	/*	login.html*/
+	#loginForm ul {display:none;}
+	
+	#main #loginForm {height:435px;}
+	.joinP label {display:none;}
+	.joinP input {    width: 90%;
+    margin-left: 0px;}
+	#main #loginForm fieldset { float:left;
+    width: 100%;}
+	#main #loginForm ul li {margin:15px; margin-bottom: 30px;}
+	.login_description ol li {
+    width: 50%;
+		margin-bottom: 20px;}
+	#loginForm .joinP input[id="join"] {
+    /* margin-left: 30px; */
+    margin: 0;
+		width: 90%;}
+	#main .joinP {margin-top:-15px;}
+
+	#main .login_description ul li {
+    text-indent: 0em;
+
+		line-height: 15px;}
+	#main .login_description ol {display:none;}
+	
+/*	서브 공통*/
+	.contArea h3 {font-size:25px;}
+	.contBody h3 {font-size:20px;}
+	.contBody .contArea {width:70%;}
+	.contBody .sub {width:25%;}
+	
+	/*회원가입.html*/
+
+	#main .fourstep {
+		width: 100%; height:110px;}	
+	#main .fourstep li {width:20%; font-size:18px;}
+	#main .fourstep li span {font-size:13px;}
+	#main .step {width:100%;}
+	#main .st1 {    margin-left: 5%;}
+	#main .st1 li {height:100px;font-size: 1em; width:20%;}
+
+	#main #st3 input[type="text"], #main #st3 input[type="password"] {width:60%;}
+	#main #st3 .detailAddress input[type="text"] {width:80%; margin-bottom:5px;}
+	#main .join_description p {width:60%; float:none; margin:10px auto;}
+	#main .join_description ul {float:none; width:100%;}
+	#main .join_description ul li {margin:5px 0;}
+	#main #st3 label {width:95px;}
+	#main #st3 input[type="button"], #main #st3 input[type="reset"], #main #st3 input[type="submit"] {
+		width:90%; margin:5px;
+	}
+	#main #st3 input[type="text"]#useremail1 {margin-bottom:5px;}
+
+	#main #st3 .radio label {width:87px;}
+	#main #st3 input[type="text"]#phone1,#main #st3 input[type="text"]#phone2, #main #st3 input[type="text"]#phone3, #main #st3 input[type="text"]#post1,#main #st3 input[type="text"]#post2 {width:18%}
+	#main #st3 input[type="text"]#useremail { margin-bottom:5px;}
+	#main #st3 input[type="button"]#postcode {width:22%; margin:0;}
+	#main #st3 input[type="button"]#prevbtn, #main #st3 input[type="reset"]#join_cancle {width:45%; margin-bottom:4px;}
+	
+
+	/*	빠른메뉴 추천여행지.html*/
+	#main .monthView dd {margin-top:0px;}
+	.listImage {width:100%; margin-right:0px; height:275px;}
+	.listImage li {width: 23%; height:50px;}
+	.listImage>li.firstPhoto {width:100%; height:200px;}
+	.listImage li img {width:100%; height:100%;}
+	#slider_main {width:75%;}
+	#slider_main li a {width:100%;}
+	
+		#slider_main {width:100%;}
+	#slider_main .listImage {width:100%;}
+	#slider_main .listImage>li.firstPhoto {height:276px;}
+	.list#slider_main li a {width:95%; margin:0 10px;}
+
+	.monthTrain {display:none;}
+	.monthView dl {height:300px;}
+	.monthView dt {width:100%; height:70px;}
+	.rec_goods h4 {
+		font-size: 16px;}
+	.rec_goods h4 span {font-size:35px;}
+	.listImage>li.lastPhoto img {
+    width: 30px;
+		height: 40px; vertical-align: middle;}
+	
+	/*	빠른메뉴 이벤트.html*/
+	.list {
+		width: 100%;}
+	
+	/*	가이드북.html*/
+	.bookSelect ul li {height:150px;}
+	.category input[type="button"] {width:80px; font-size:14px;}
+	
+		
+	/*빠른메뉴 관광지도*/
+	#map {height: 400px;}
+	
+		/*	nature.html*/
+	#main .contBody .sub {display:none;}
+	#main .kt_cont .ktc h3 {font-size:24px;}
+	#main .kt_cont .ktc h4 {font-size:15px;}
+	#main .kt_cont .con_txt {display:none;}
+	#main .koreaTrain .control {    top: 6%;
+    left: 58%;}
+	#main #nature_search {   margin: 10px 10px 10px 37px;}
+	#main .contBody .contArea {float:none; margin:auto; width:98%;}
+	#main .contArea h4 {font-size:16px; margin-top:40px; line-height:0; margin-bottom:20px;}
+	#main .koreaTrain {width:100%;}
+	#main .kt_category {margin-bottom:50px; margin-top:20px;}
+	#main .order li {width:80px;}
+		#main .view li .img {    width: 60%;
+    height: 150px;}
+	#main .view li .etc {display:none;}
+	#main .order li {width:90px;}
+	#main .view li .tit a {
+       color: #123456;
+    display: block;
+    height: 41px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 7px 0; }
+	
+	
+	#main .kt_cont li {height:300px;}
+	
+	#main .view li .img {    width: 60%;
+    height: 150px;}
+	#main .view li .etc {display:none;}
+	
+			/*	adventure.html*/
+	.kt_category.adventure dl dd label {
+		width: 65px;}
+	.kt_category.adventure dl dd p>span {    height: 55px;
+    line-height: 55px;
+    width: 100px;}
+	.kt_category.adventure dl dd p>span img {top:20%;}
+	.food #food_search, .stay #stay_search {width:50%;}
+	.kt_category.adventure dl dd input[type="submit"] {    width: 14%;line-height: 50px;}
+	.kt_category.adventure dl dd .city {display:none;}
+	.monthView.adventure dt {width:150px;}
+	.monthView.adventure dd {    margin-top: 15px;
+    margin-bottom: 15px;}
+	#main .rec_goods h4 {font-size:20px;    height: 120px;}
+	#main .rec_goods h4 span {
+		font-size: 25px;}
+	
+	#main .kt_category.adventure dl {height:80px;}
+	
+	
+	/*	food_stay.html*/
+	.kt_m0, .kt_m {display:none;}
+	.koreaTravel .kt_category dd p>span {width:115px;}
+	.koreaTravel #food_search, #stay_search {width:50%;}
+	#main .kt_category {margin-bottom:0;}
+	
+		/*	koreaInfo.html*/
+
+
+	.koreaCont .kc {height:500px;}
+	.koreaCont .kc ul {display:none;}
+
+	.kc p>img {width:94%;}
+	.koreaCont .kc p {height:27px;   width:100%; padding-top: 10px; font-size:15px;}
+	
+	
+	/*	notice.html*/
+	.board .tile ol li {width:40%;}
+	.board .tile ol li a b {text-overflow: ellipsis;overflow: hidden;white-space: nowrap; margin:0 10px; width:90%;}
+	.contBody .board {margin-top:30px;}
+	
+			/*	hire.html*/
+	#main .hire {    margin-bottom: 50px;}
+	#main .hire ul {bottom:100px; width:100%; left:0;}
+	#main .hire p {font-size:20px;}
+	#main .hire ul li a b { text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+	#main .hire .cp2 {display:none;}
+	
+					/*	photo.html*/
+	#main .contArea .album_photo li {    width: 40%;}
+	#main .album form p.txt {font-size:20px; width:40%;}
+	#main .album form p {width:30%;}
+		/*	business.html*/
+	#main .vision li {width:21%;}
+	#main .vision ul li img {display:none;}
+	#main .vision ul {width:100%;}
+
+	#main .circle ul {width:100%;}
+#main .circle ul li {width:160px;}
+#main .circle ul li b {font-size:18px}
+	.circle .c2 b {right:3%;}
+.circle .c1 span {
+    color: #fff;font-size: 12px;
+    top: 48%;
+	left: 17%;}
+.circle .c2 span {
+    color: #fff;font-size: 15px;
+    top: 48%;
+	right: -6%;}
+.circle .c3 span {
+    color: #fff;font-size: 15px;
+    top: 52%;
+	right: -3%;}
+.circle .c4 span {
+    color: #fff;
+    top: 52%;font-size: 15px;
+	left: 45%;}
+.circle .c4 b {right:-22%;}
+.circle .bingle {left:30%;}
+	.circle_desc {display:none;}
+	
+	.instacont { margin-top:10px;}
+	
+	/*	request.html*/
+	#main .require form p input[type="submit"] {width:35%;}
+	#main .contArea .require form p  {line-height:16px;}
+	#main .require form #post1, #main .require form #post2 { width:40px;}
+	#main .require form #postcode {width:70px;}
+	/*	guidebook.html*/
+	#main .bookSelect>ul li {width: 140px;
+		height: 200px;}
+		#main .category select {width:100px;}
+
+	
+}
